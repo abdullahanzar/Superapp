@@ -1,0 +1,73 @@
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+hr {
+  position: relative;
+  background-color: #72db73;
+  left: 8rem;
+  height: 80%;
+  border: 1px solid #72db73;
+  top: 10%;
+}
+
+.info {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.info div:first-child {
+  position: fixed;
+  top: 5%;
+  left: 2%;
+  color: #fff;
+  border: transparent;
+  background-color: rgba(255, 255, 255, 0);
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.info div p {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 22px;
+}
+
+.info div button {
+  background-color: #72db73;
+  margin-left: 1rem;
+  padding: 8px 32px;
+  border-radius: 64px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+}
+
+.info div:nth-child(2) {
+  border: transparent;
+  background-color: rgba(255, 255, 255, 0);
+  position: fixed;
+  top: 80%;
+  left: 2%;
+  width: 28rem;
+}
+
+.info div:nth-child(2) h1 {
+  border: none;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 2.3rem;
+  font-family: math;
+}
+
+.form {
+  position: relative;
+  left: 2rem;
+}
+

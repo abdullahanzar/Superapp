@@ -1,0 +1,27 @@
+input {
+    padding: 16px 32px;
+    border: 2px solid white;
+    border-radius: 12px;
+    margin: 8px;
+}
+
+form {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 16px 32px;
+    border: 2px solid #8787ff;
+    background-color: #99ccff;
+    margin: 8px;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #4897ff;
+    cursor: pointer;;
+}

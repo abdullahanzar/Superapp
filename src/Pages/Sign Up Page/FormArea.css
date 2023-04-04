@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans");
+
+.formArea {
+  position: relative;
+  left: 14rem;
+  padding: 10rem;
+  top: -6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formArea p {
+  font-family: "DM Sans", math;
+}
+
+.choice {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.choice hr {
+  background: #72db73;
+  position: static;
+  height: 35%;
+}
+
+.choice p {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.tandc {
+  font-size: 13px;
+  max-width: 19rem;
+  color: #7c7c7c;
+}
