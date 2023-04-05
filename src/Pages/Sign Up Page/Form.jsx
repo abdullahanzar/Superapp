@@ -98,7 +98,7 @@ export default function () {
             <label htmlFor="sharedata">Share my registeration data with superapp</label>
             <div><Error message={errText.terms} /></div>
             </div>
-            <button onClick={check} formNoValidate>Sign Up</button>
+            <button onClick={check} formNoValidate>SIGN UP</button>
         </form>
     </div>
   )
