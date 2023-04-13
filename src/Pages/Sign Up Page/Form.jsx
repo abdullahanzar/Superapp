@@ -1,9 +1,11 @@
 import React, {useState, useRef, useEffect} from 'react'
 import './Form.css'
 import Error from './Error'
+import { useNavigate } from 'react-router-dom'
 
 
 export default function () {
+    const navigate = useNavigate();
     const [valid, setValid] = useState(false)
 
     const [form, setForm] = useState({
@@ -44,6 +46,8 @@ export default function () {
     const validate = (e) => {
         if(valid===false)
         e.preventDefault();
+        else 
+        navigate("/category-page")
     } 
 
     function check() {
