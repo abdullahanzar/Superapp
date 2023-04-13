@@ -34,7 +34,7 @@
   max-width: 40rem;
   height: 23rem;
   max-height: 25rem;
-  position: relative;
+  position: absolute;
   left: 50rem;
-  bottom: 15rem;
+  bottom: 22rem;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Buton.css"
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function Button(props) {
 
