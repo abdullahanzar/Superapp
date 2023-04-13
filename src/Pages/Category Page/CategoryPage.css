@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.cpSALOGO {
+  font-family: "Single Day", cursive;
+  font-size: 2.5rem;
+  color: #72db73;
+}
+
+.cpChooseText {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+}
+
+.cpLeft {
+  width: 20rem;
+  position: relative;
+  top: 7rem;
+  left: 5rem;
+}
+
+.cpTagContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 35rem;
+}
+
+.cpRight {
+  display: flex;
+  flex-wrap: wrap;
+  width: 37rem;
+  /* background: #fff; */
+  max-width: 40rem;
+  height: 23rem;
+  max-height: 25rem;
+  position: relative;
+  left: 50rem;
+  bottom: 15rem;
+}
